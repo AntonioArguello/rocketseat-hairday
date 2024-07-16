@@ -1,3 +1,14 @@
 {
-    "schedules": []
+  "schedules": [
+    {
+      "id": 1721161949262,
+      "name": "Antonio Arguello",
+      "when": "2024-07-17T19:00:00.000Z"
+    },
+    {
+      "id": 1721162129628,
+      "name": "Antonio Arguello",
+      "when": "2024-07-16T22:00:00.000Z"
+    }
+  ]
 }
