@@ -5,14 +5,15 @@ const periodMorning = document.getElementById("period-morning")
 const periodAfternoon = document.getElementById("period-afternoon")
 const periodNight = document.getElementById("period-night")
 
-export function scheduleShow(dailySchedule) {
+export function scheduleShow({ dailySchedules }) {
     try {
+        // Limpa as listas
         periodMorning.innerHTML = ""
         periodAfternoon.innerHTML = ""
         periodNight.innerHTML = ""
         
         // Renderiza os agendamentos por período
-        dailySchedule.forEach((schedule) => {
+        dailySchedules.forEach((schedule) => {
             const item = document.createElement("li")
             const time = document.createElement("strong")
             const name = document.createElement("span")
